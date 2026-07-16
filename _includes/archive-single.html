@@ -44,14 +44,14 @@
 
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'preprints' %}
+    {% elsif post.collection == 'publications' %}
       {% if post.category == 'preprints' %}
         {{ post.author }}<br>
         arXiv preprint, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br>
         {% if post.venue %}
           accepted to {{ post.venue }}
         {% endif %}
-      {% elsif post.category == 'preprints' %}
+      {% elsif post.category == 'publications' %}
         {{ post.author }}<br>
         published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       {% elsif post.category == 'thesis' %}
