@@ -1,5 +1,5 @@
 ---
-title: "Elementary $\infty$-toposes from type theory"
+title: "Elementary $$\\infty$$-toposes from type theory"
 collection: publications
 category: preprints
 permalink: /publication/2025-12-21-elementary-infty-toposes-from-type-theory
